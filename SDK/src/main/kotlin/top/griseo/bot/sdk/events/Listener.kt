@@ -1,4 +1,3 @@
 package top.griseo.bot.sdk.events
 
-interface Listener {
-}
+open class Listener

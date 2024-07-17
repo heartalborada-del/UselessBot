@@ -1,3 +1,5 @@
 package top.griseo.bot.sdk.events
 
-annotation class EventHandler()
+@Target(AnnotationTarget.FUNCTION)
+@Retention(AnnotationRetention.RUNTIME)
+annotation class EventHandler

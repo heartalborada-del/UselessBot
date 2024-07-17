@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm")
 }
 
-group = "top.griseo.fun"
+group = "top.griseo.bot.main"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation(project(":SDK"))
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 

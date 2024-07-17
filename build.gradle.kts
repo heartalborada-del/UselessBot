@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "1.9.23"
 }
 
-group = "top.griseo.fun"
+group = "top.griseo.bot"
 version = "1.0-SNAPSHOT"
 
 repositories {
